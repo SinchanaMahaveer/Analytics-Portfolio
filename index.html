@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sinchana's analytics portfolio — BI dashboards, SQL analysis, data modelling and analytics engineering projects.">
+  <title>Sinchana | Analytics Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a class="identity" href="#home"><span class="monogram">S</span><span><strong>Sinchana</strong><small>ANALYTICS PORTFOLIO</small></span></a>
+  <button class="menu" id="menu" aria-label="Open navigation">☰</button>
+  <nav id="nav"><a href="#work">Selected work</a><a href="#skills">Capabilities</a><a href="#approach">How I work</a><a class="nav-contact" href="#contact">Let's talk ↗</a></nav>
+</header>
+<main id="home">
+  <section class="hero wrap">
+    <div class="hero-text">
+      <div class="eyebrow"><span></span> DATA ANALYTICS · BUSINESS INTELLIGENCE</div>
+      <h1>I turn messy data into <em>clear decisions.</em></h1>
+      <p class="intro">I build reliable data models, useful analytics and dashboards that help teams understand performance, spot opportunities and take action.</p>
+      <div class="actions"><a class="btn primary" href="#work">Explore my work <b>↓</b></a><a class="btn secondary" href="#contact">Discuss a project <b>↗</b></a></div>
+      <div class="trust-line"><span class="check">✓</span> SQL · Tableau · BI Analytics · Data Modelling · Python/Pandas</div>
+    </div>
+    <div class="hero-card">
+      <div class="card-top"><span>ANALYTICS WORKFLOW</span><span class="status"><i></i> END TO END</span></div>
+      <div class="flow">
+        <div class="flow-node"><span class="flow-icon">▤</span><span><strong>Raw data</strong><small>Understand the source</small></span></div><div class="flow-link">↓</div>
+        <div class="flow-node"><span class="flow-icon teal">⌘</span><span><strong>Model & validate</strong><small>Reliable definitions and checks</small></span></div><div class="flow-link">↓</div>
+        <div class="flow-node"><span class="flow-icon purple">▥</span><span><strong>Analyse & visualise</strong><small>Insights people can use</small></span></div>
+      </div>
+      <div class="card-bottom"><span>FROM DATA TO DECISION</span><span>01 / APPROACH</span></div>
+    </div>
+  </section>
+
+  <section class="metrics"><div class="wrap metric-grid"><div><strong>SQL</strong><span>Analysis & transformation</span></div><div><strong>BI</strong><span>Dashboards & KPI design</span></div><div><strong>ETL</strong><span>Data preparation & quality</span></div><div><strong>Insights</strong><span>Business-focused storytelling</span></div></div></section>
+
+  <section class="section wrap" id="work">
+    <div class="section-head"><div><div class="eyebrow">01 / SELECTED WORK</div><h2>Projects built around<br>real business questions.</h2></div><p>Explore end-to-end case studies that demonstrate how I structure data, define metrics, validate results and turn analysis into a usable deliverable.</p></div>
+    <div class="projects">
+      <article class="project featured">
+        <div class="project-visual revenue-visual">
+          <div class="visual-label"><span>CASE STUDY 01</span><span>ANALYTICS ENGINEERING</span></div>
+          <div class="mini-kpis"><div><small>Net merchandise revenue</small><strong>$2.26M</strong></div><div><small>Valid orders</small><strong>14,381</strong></div></div>
+          <div class="mini-chart"><div class="gridlines"><i></i><i></i><i></i></div><svg viewBox="0 0 500 120" preserveAspectRatio="none" aria-label="Decorative revenue chart"><path d="M0 98 L45 75 L90 82 L135 60 L180 69 L225 42 L270 51 L315 55 L360 32 L405 23 L450 12 L500 6" fill="none" stroke="#7cd0bd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="months"><span>JAN</span><span>MAR</span><span>MAY</span><span>JUL</span><span>SEP</span><span>DEC</span></div></div>
+          <div class="visual-caption">REVENUE INTELLIGENCE PLATFORM <span>↗</span></div>
+        </div>
+        <div class="project-copy"><div class="tags"><span>Python / Pandas</span><span>SQL</span><span>Tableau-ready data</span></div><h3>Revenue Intelligence Platform</h3><p>Designed a reproducible analytics workflow for a fictional commerce business: source data generation, transformations, data-quality checks and reporting marts for revenue, funnel, acquisition, cohorts, refunds and attribution.</p><div class="project-meta"><div><small>FOCUS</small><strong>End-to-end data pipeline</strong></div><div><small>DELIVERABLES</small><strong>CSV marts · SQL · Validation</strong></div></div><div class="project-actions"><a href="#revenue-project" class="text-link">View case study details ↘</a><a href="https://github.com/SinchanaMahaveer/Analytics-Portfolio" target="_blank" rel="noreferrer" class="text-link">GitHub repository ↗</a></div></div>
+      </article>
+      <article class="project compact">
+        <div class="project-visual funnel-visual"><div class="visual-label"><span>PROJECT IDEA / TEMPLATE</span><span>02</span></div><div class="funnel-bars"><div><span>Sessions</span><i style="width:100%"></i></div><div><span>Product views</span><i style="width:78%"></i></div><div><span>Add to cart</span><i style="width:52%"></i></div><div><span>Checkout</span><i style="width:31%"></i></div><div><span>Orders</span><i style="width:18%"></i></div></div><div class="visual-caption">FUNNEL & CONVERSION ANALYSIS <span>↗</span></div></div>
+        <div class="project-copy"><div class="tags"><span>SQL</span><span>Product analytics</span></div><h3>Funnel & Conversion Analysis</h3><p>A framework for measuring journey drop-offs, comparing segments and identifying where a product experience may need investigation.</p><span class="status-note">Planned case study — publish after building and validating the analysis.</span></div>
+      </article>
+      <article class="project compact">
+        <div class="project-visual model-visual"><div class="visual-label"><span>PROJECT IDEA / TEMPLATE</span><span>03</span></div><div class="model-canvas"><div class="model-box">CUSTOMERS</div><div class="model-box accent">ORDERS</div><div class="model-box">PRODUCTS</div><div class="model-box">SESSIONS</div><div class="model-box accent">EVENTS</div></div><div class="visual-caption">DATA MODELLING & QUALITY <span>↗</span></div></div>
+        <div class="project-copy"><div class="tags"><span>Data modelling</span><span>SQL</span><span>Data quality</span></div><h3>Analytics Data Model</h3><p>Show how source entities, fact tables, dimensions, grains and quality checks work together to produce consistent reporting.</p><span class="status-note">Planned case study — add model diagrams and tested outputs before publishing as completed work.</span></div>
+      </article>
+    </div>
+    <div class="project-detail" id="revenue-project"><div><div class="eyebrow">CASE STUDY DETAILS</div><h3>Revenue Intelligence Platform</h3><p>The project separates raw source records from dashboard-ready outputs so each table has a defined purpose and grain. Validation covers relationships, duplicate events and revenue reconciliation.</p></div><div class="detail-list"><div><span>01</span><p><strong>Build</strong><small>Generate repeatable synthetic source data</small></p></div><div><span>02</span><p><strong>Transform</strong><small>Prepare analysis-ready tables with Python/Pandas and SQL models</small></p></div><div><span>03</span><p><strong>Validate</strong><small>Check relationships, deduplication and financial reconciliation</small></p></div><div><span>04</span><p><strong>Visualise</strong><small>Connect appropriate marts to Tableau without flattening different grains</small></p></div></div></div>
+    <div class="note"><strong>Transparency note</strong><span>The Revenue Intelligence Platform is a portfolio demonstration using synthetic data, not a real client engagement. Attribution is descriptive, not causal; ROAS is not profit. Add the finished Tableau workbook and screenshots when ready.</span></div>
+  </section>
+
+  <section class="capabilities" id="skills"><div class="wrap section"><div class="section-head"><div><div class="eyebrow">02 / CAPABILITIES</div><h2>Useful analysis, from<br>source to stakeholder.</h2></div><p>Services and skills are presented around outcomes—not just a list of tools.</p></div><div class="cap-grid">
+    <article><span>01</span><div class="cap-icon">⌘</div><h3>SQL & data analysis</h3><p>Business metrics, joins, CTEs, window functions, funnel analysis, cohort analysis and performance investigations.</p><div class="tool-line">SQL · PostgreSQL · Redshift</div></article>
+    <article><span>02</span><div class="cap-icon">▥</div><h3>BI dashboards</h3><p>Decision-focused dashboards, KPI definitions, drill-downs, filters, trend analysis and clear visual hierarchy.</p><div class="tool-line">Tableau · QuickSight</div></article>
+    <article><span>03</span><div class="cap-icon">⇄</div><h3>Data preparation & modelling</h3><p>Reusable transformations, source-to-report pipelines, data dictionaries, model design and reconciliation checks.</p><div class="tool-line">Python · Pandas · SQL</div></article>
+    <article><span>04</span><div class="cap-icon">◌</div><h3>Product & growth analytics</h3><p>Funnels, retention, acquisition performance, experiment measurement and descriptive attribution.</p><div class="tool-line">Metrics · Experimentation · Insights</div></article>
+  </div></div></section>
+
+  <section class="section wrap" id="approach"><div class="section-head"><div><div class="eyebrow">03 / HOW I WORK</div><h2>Clear process.<br>Trustworthy outputs.</h2></div><p>Every engagement should have a clear question, a traceable method and a deliverable that someone can use.</p></div><div class="steps"><div><span>01</span><h3>Understand</h3><p>Clarify the business question, users, decisions and source data.</p></div><div><span>02</span><h3>Define</h3><p>Agree metric definitions, data grain and success criteria before building.</p></div><div><span>03</span><h3>Build & validate</h3><p>Transform data, check edge cases and reconcile results against source totals.</p></div><div><span>04</span><h3>Deliver</h3><p>Present findings clearly and document how the solution can be maintained.</p></div></div></section>
+
+  <section class="contact" id="contact"><div class="wrap contact-inner"><div><div class="eyebrow">LET'S WORK TOGETHER</div><h2>Have a data problem<br>you want to solve?</h2><p>Tell me what you need to understand, automate or visualise. We can start with a focused project and a clearly defined deliverable.</p></div><div class="contact-actions"><a class="btn light" href="mailto:YOUR_EMAIL@example.com?subject=Analytics%20project%20enquiry">Email me about a project ↗</a><a class="social-link" href="https://github.com/SinchanaMahaveer/Analytics-Portfolio" target="_blank" rel="noreferrer">View GitHub profile ↗</a><small>Replace the placeholder email before publishing.</small></div></div></section>
+</main>
+<footer class="footer wrap"><a class="identity" href="#home"><span class="monogram">S</span><span><strong>Sinchana</strong><small>ANALYTICS PORTFOLIO</small></span></a><span>Built to showcase analytics work · Synthetic demo data clearly labelled</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
